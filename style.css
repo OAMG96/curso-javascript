@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 5px solid forestgreen;
+    background-color: rgb(141, 210, 52);
+    text-align: center;
+}
+ label{
+     font-size: 12px;
+     
+ }
+
+.container{
+    border: 5px solid forestgreen;
+    background-color: rgb(141, 210, 52);
+    display: grid;
+    grid-template-columns: 250px  250px;
+    grid-template-rows: 250px 250px;
+    height: 100%;
+    width: 100%;
+     
+    place-content: center;
+    place-items: end;
+    align-content: center;
+    margin-top: 5px;
+    
+}
+
+.item-cuadrado{
+    font-size: 14px;
+    text-align: center;
+    border: 5px solid #00bcd4;
+    width: 220px;
+    height: 220px;
+    background: lightblue;
+    margin-top: 12px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    
+}
+
+.item-cuadrado input{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.item-triangulo{
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    border: 5px solid #00bcd4;
+    width: 220px;
+    height: 220px;
+    margin-top: 45px;
+    background: lightblue;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.item-triangulo input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-trianguloiso{
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    border: 5px solid #00bcd4;
+    width: 220px;
+    height: 220px;
+    margin-top: 45px;
+    background: lightblue;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.item-trianguloiso input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item-circulo{
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px solid #00bcd4;
+    width: 220px;
+    height: 220px;
+    background: lightblue;
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+}
+
+.item-circulo input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
